@@ -35,6 +35,19 @@ Route::get('/admin', function () {
     }   
 });
 
+Route::group(['middleware' => ['web']], function () {
+    //<span class="typ">Route</span><span class="pun">::</span><span class="kwd">get</span><span class="pun">(</span><span class="str">'payPremium'</span><span class="pun">,</span> <span class="pun">[</span><span class="str">'as'</span><span class="pun">=></span><span class="str">'payPremium'</span><span class="pun">,</span><span class="str">'uses'</span><span class="pun">=></span><span class="str">'PaypalController@payPremium'</span><span class="pun">]);</span>    
+   Route::post('getCheckout', ['as'=>'getCheckout','uses'=>'PaypalController@getCheckout']);
+       Route::get('getDone', ['as'=>'getDone','uses'=>'PaypalController@getDone']);
+       Route::get('getCancel', ['as'=>'getCancel','uses'=>'PaypalController@getCancel']);
+   });
+   Route::group(['middleware' => ['web']], function () {
+    //<span class="typ">Route</span><span class="pun">::</span><span class="kwd">get</span><span class="pun">(</span><span class="str">'payPremium'</span><span class="pun">,</span> <span class="pun">[</span><span class="str">'as'</span><span class="pun">=></span><span class="str">'payPremium'</span><span class="pun">,</span><span class="str">'uses'</span><span class="pun">=></span><span class="str">'PaypalController@payPremium'</span><span class="pun">]);</span>    
+   Route::post('getCheckout', ['as'=>'getCheckout','uses'=>'PaypalController@getCheckout']);
+       Route::get('getDone', ['as'=>'getDone','uses'=>'PaypalController@getDone']);
+       Route::get('getCancel', ['as'=>'getCancel','uses'=>'PaypalController@getCancel']);
+   });
+
 //this is gonna have the resources controllers
 Route::resource("register",'UserRegister');
 Route::resource("categoria",'CategoriaController');
