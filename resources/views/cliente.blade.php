@@ -189,13 +189,13 @@
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text">Información de Contacto</h5>
-                    <p class="grey-text text-lighten-4">Kevin Pedroza Larios <br> Tel: 89596143 <br> Email: kevinlarios@gmail.com</p>
+                    <h5 class="white-text">Información de la Tienda</h5>
+                    <p class="grey-text text-lighten-4">PuertoCell  <br> Tel: Numero Puerto Cell <br> Email: PuertoCell@gmail.com</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Visita Nuestras Redes sociales</h5>
                     <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Facebook <i class="fab fa-facebook-square"></i></a> </li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/PuertoCel/">Facebook <i class="fab fa-facebook-square"></i></a> </li>
                     <li><a class="grey-text text-lighten-3" href="#!">Instagram <i class="fab fa-instagram"></i></a></li>
                     <li><a class="grey-text text-lighten-3" href="#!">Twitter <i class="fab fa-twitter"></i></a></li>
                     </ul>

@@ -1,7 +1,10 @@
 <?php
 
 return [
-
+    'paypal' => [
+        'client_id' => 'AR-p8XQFfsuVgpNKANMSCEHALWEhN3K45K6-4g6eAkeIez-EU-UdgSV5_eqofnwYdc7f1pOz5XeJujmH',
+        'secret' => 'EC5FFoJg9WNY1vuRuFPwlfDNPwr5WiVqSOtgScev_DZTUoFfeT9B0wtuWxcAwM4QDLFGs899a4CzAEZt',
+    ],
     /*
     |--------------------------------------------------------------------------
     | Third Party Services

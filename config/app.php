@@ -1,13 +1,12 @@
 <?php
 
+
 return [
 
-     //Libreria de paypal instalada
-    $provides => [
-		
-		
+	$provides => [
+
 		'Netshell\Paypal\PaypalServiceProvider'
-	],
+    ],
 	$aliases => [
 		
 		'Paypal' => 'Netshell\Paypal\Facades\Paypal'
